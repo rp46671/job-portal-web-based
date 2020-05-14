@@ -21,7 +21,7 @@ class Main extends CI_Controller
 		$this->load->view('header');
 		$data['users']=$this->fm->find_job_saving_data();
 		$this->load->view('preeti/find_job',$data);
-		echo  $this->db->last_query();
+		//echo  $this->db->last_query();
 		
 		$this->load->view('footer');
 	}

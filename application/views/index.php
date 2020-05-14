@@ -29,14 +29,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="row">
                     <div class="col-lg-12">
                         <form action="<?php echo site_url('main/find_job_controller');?>" method="post" class="d-md-flex justify-content-between">
-                            <select name="Category[]">
+                            <select name="Category">
                                 <option >All Category</option>
                                 <option value="Part Time">Part Time</option>
                                 <option value="Full Time">Full Time</option>
                                 <option value="Remote">Remote</option>
                                 <option value="Office Job">Office Job</option>
                             </select>
-                            <select name="Location[]">
+                            <select name="Location">
                                 <option >Select Location</option>
                                 <option value="Dhaka">Dhaka</option>
                                 <option value="Rajshahi">Rajshahi</option>
