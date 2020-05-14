@@ -7,7 +7,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-8 px-0">
+                    <div class="banner-bg">
+                    	
                     </div>
+                </div>
                 <div class="col-lg-4 align-self-center">
                     <div class="banner-text">
                         <h1>find your dream <span>job</span> with Grabrozgar</h1>
