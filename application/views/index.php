@@ -28,23 +28,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <form action="#" class="d-md-flex justify-content-between">
-                            <select>
-                                <option value="1">All Category</option>
-                                <option value="2">Part Time</option>
-                                <option value="3">Full Time</option>
-                                <option value="4">Remote</option>
-                                <option value="5">Office Job</option>
+                        <form action="<?php echo site_url('main/find_job_controller');?>" method="post" class="d-md-flex justify-content-between">
+                            <select name="Category[]">
+                                <option >All Category</option>
+                                <option value="Part Time">Part Time</option>
+                                <option value="Full Time">Full Time</option>
+                                <option value="Remote">Remote</option>
+                                <option value="Office Job">Office Job</option>
                             </select>
-                            <select>
-                                <option value="1">Select Location</option>
-                                <option value="2">Dhaka</option>
-                                <option value="3">Rajshahi</option>
-                                <option value="4">Barishal</option>
-                                <option value="5">Noakhali</option>
+                            <select name="Location[]">
+                                <option >Select Location</option>
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Rajshahi">Rajshahi</option>
+                                <option value="Barishal">Barishal</option>
+                                <option value="Noakhali">Noakhali</option>
                             </select>
-                            <input type="text" placeholder="Search Keyword" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Keyword'" required>
-                            <button type="submit" class="template-btn">find job</button>
+                            <input type="text" placeholder="Search Keyword" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Keyword'"  name="key" required>
+                            <button type="submit" class="template-btn"> 
+                                find job</button>
                         </form>
                     </div>
                 </div>
