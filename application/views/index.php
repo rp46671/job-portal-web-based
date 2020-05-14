@@ -6,14 +6,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section class="banner-area">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6 px-0">
-                    <div class="banner-bg"></div>
-                </div>
-                <div class="col-lg-6 align-self-center">
+                <div class="col-lg-8 px-0">
+                    </div>
+                <div class="col-lg-4 align-self-center">
                     <div class="banner-text">
-                        <h1>find your dream <span>job</span> with comport</h1>
-                        <p class="py-3">Wherein herb beginning. Moved after gathering. Sea hi crate fowl man replenish place divided likeness herb one two lnetn Winged moving saw, may over.</p>
-                        <a href="#" class="secondary-btn">explore now<span class="flaticon-next"></span></a>
+                        <h1>find your dream <span>job</span> with Grabrozgar</h1>
+                        <p class="py-3">This job portal creates an opportunity for both job seekers and organizations to embrace an easy employment process. Job seekers can register for free on this job portal and they can receive different job posting and updates that is related to their skills. This helps to save time and help streamline the right candidate for a particular job. <a href="#" class="secondary-btn">explore now<span class="flaticon-next"></span></a>
                     </div>
                 </div>
             </div>
@@ -463,4 +461,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section>
     <!-- Download Area End -->
 
-   
+

@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Page Title -->
-    <title>Comport</title>
+    <title>Grabrozgar</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?php echo base_url('assets/images/logo/favicon.png'); ?>" type="image/x-icon">
@@ -38,7 +38,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row">
                 <div class="col-lg-2">
                     <div class="logo-area">
-                        <a href="index.html"><img src="<?php echo base_url('assets/images/logo.png'); ?>" alt="logo"></a>
+                        <a href="index.html"><img src="<?php echo base_url('assets/images/goo.png'); ?>" alt="logo"></a>
                     </div>
                 </div>
                 <div class="col-lg-10">
