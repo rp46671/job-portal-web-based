@@ -98,56 +98,56 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="single-category text-center mb-4">
-                        <img src="assets/images/cat1.png" alt="category">
+                        <img src="<?php echo base_url('assets/images/cat1.png');?>" alt="category">
                         <h4>accounting & Finance</h4>
                         <h5>250 open job</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-category text-center mb-4">
-                        <img src="assets/images/cat2.png" alt="category">
+                        <img src="<?php echo base_url('assets/images/cat2.png');?>" alt="category">
                         <h4>production & operation</h4>
                         <h5>250 open job</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-category text-center mb-4">
-                        <img src="assets/images/cat3.png" alt="category">
+                        <img src="<?php echo base_url('assets/images/cat3.png');?>" alt="category">
                         <h4>telecommunication</h4>
                         <h5>250 open job</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-category text-center mb-4">
-                        <img src="assets/images/cat4.png" alt="category">
+                        <img src="<?php echo base_url('assets/images/cat4.png');?>" alt="category">
                         <h4>garments & textile</h4>
                         <h5>250 open job</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-category text-center mb-4 mb-lg-0">
-                        <img src="assets/images/cat5.png" alt="category">
+                        <img src="<?php echo base_url('assets/images/cat5.png');?>" alt="category">
                         <h4>marketing and sales</h4>
                         <h5>250 open job</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-category text-center mb-4 mb-lg-0">
-                        <img src="assets/images/cat6.png" alt="category">
+                        <img src="<?php echo base_url('assets/images/cat6.png');?>" alt="category">
                         <h4>engineer & architech</h4>
                         <h5>250 open job</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-category text-center mb-4 mb-md-0">
-                        <img src="assets/images/cat7.png" alt="category">
+                        <img src="<?php echo base_url('assets/images/cat7.png');?>" alt="category">
                         <h4>design & crative</h4>
                         <h5>250 open job</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-category text-center">
-                        <img src="assets/images/cat8.png" alt="category">
+                        <img src="<?php echo base_url('assets/images/cat8.png');?>" alt="category">
                         <h4>customer support</h4>
                         <h5>250 open job</h5>
                     </div>
@@ -201,7 +201,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </ul>
                                 </div>
                                 <div class="job-img align-self-center">
-                                    <img src="assets/images/job1.png" alt="job">
+                                    <img src="<?php echo base_url('assets/images/job1.png');?>" alt="job">
                                 </div>
                                 <div class="job-btn align-self-center">
                                     <a href="#" class="third-btn job-btn1">full time</a>
@@ -220,7 +220,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </ul>
                                 </div>
                                 <div class="job-img align-self-center">
-                                    <img src="assets/images/job2.png" alt="job">
+                                    <img src="<?php echo base_url('assets/images/job2.png');?>" alt="job">
                                 </div>
                                 <div class="job-btn align-self-center">
                                     <a href="#" class="third-btn job-btn2">full time</a>
@@ -239,7 +239,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </ul>
                                 </div>
                                 <div class="job-img align-self-center">
-                                    <img src="assets/images/job3.png" alt="job">
+                                    <img src="<?php echo base_url('assets/images/job3.png');?>" alt="job">
                                 </div>
                                 <div class="job-btn align-self-center">
                                     <a href="#" class="third-btn job-btn3">full time</a>
@@ -258,7 +258,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </ul>
                                 </div>
                                 <div class="job-img align-self-center">
-                                    <img src="assets/images/job4.png" alt="job">
+                                    <img src="<?php echo base_url('assets/images/job4.png');?>" alt="job">
                                 </div>
                                 <div class="job-btn align-self-center">
                                     <a href="#" class="third-btn job-btn4">full time</a>
