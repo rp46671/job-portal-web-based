@@ -1,3 +1,7 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>  
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +13,8 @@
     <!-- Page Title -->
     <title>Grabrozgar</title>
 
-<link rel="shortcut icon" href="<?php echo base_url('assets/images/logo/favicon.png'); ?>" type="image/x-icon">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="<?php echo base_url('assets/images/logo/favicon.png'); ?>" type="image/x-icon">
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/animate-3.7.0.css'); ?>">
@@ -28,23 +33,22 @@
     <!-- Preloader End -->
 
     <!-- Header Area Starts -->
-    <header class="header-area single-page">
-        <div class="header-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2">
-                        <div class="logo-area">
-                          <a href="<?php echo site_url('main/index');?>"><img src="<?php echo base_url('assets/images/1.png'); ?>" alt="logo"></a>
+	<header class="header-area main-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="logo-area">
+                        <a href="<?php echo site_url('main/index');?>"><img src="<?php echo base_url('assets/images/goo.png'); ?>" alt="logo"></a>
                     </div>
-                    </div>
-                    <div class="col-lg-10">
-                        <div class="custom-navbar">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>  
-                        <div class="main-menu main-menu-light">
-                             <ul>
+                </div>
+                <div class="col-lg-10">
+                    <div class="custom-navbar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>  
+                    <div class="main-menu">
+                        <ul>
                             <li class="active"><a href="<?php echo site_url('main/index');?>">home</a></li>
                             <li><a href="<?php echo site_url('main/about');?>"> about us</a></li>
                             <li><a href="<?php echo site_url('main/category');?>"> category</a></li>
@@ -72,4 +76,5 @@
                 </div>
             </div>
         </div>
-    
+  
+    <!-- Header Area End -->

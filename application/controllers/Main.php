@@ -11,10 +11,35 @@ class Main extends CI_Controller
     }
 	public function index()
 	{
-		$this->load->view('header');
+		$this->load->view('main-header');
 		$this->load->view('index');
 		$this->load->view('footer');
 	}
+public function Contact_us()
+	{
+		$this->load->view('header');
+		$this->load->view('Contact');
+		$this->load->view('footer');
+	}
+public function about()
+	{
+		$this->load->view('header');
+		$this->load->view('about');
+		$this->load->view('footer');
+	}
+public function category()
+	{
+		$this->load->view('header');
+		$this->load->view('category');
+		$this->load->view('footer');
+	}
+public function bloghome()
+	{
+		$this->load->view('header');
+		$this->load->view('bloghome');
+		$this->load->view('footer');
+	}
+
 
 	public function find_job_controller()
 	{

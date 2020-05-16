@@ -2,7 +2,8 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
-    <!-- Banner Area Starts -->
+     </header>
+   <!-- Banner Area Starts -->
     <section class="banner-area">
         <div class="container-fluid">
             <div class="row">
