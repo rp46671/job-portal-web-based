@@ -50,5 +50,13 @@ public function bloghome()
 		
 		$this->load->view('footer');
 	}
+
+
+	public function forgotpwd_controller()
+	{
+		$this->load->view('header');
+		$this->load->view('preeti/Forgot_pwd');
+		$this->load->view('footer');
+	}
 }
 
