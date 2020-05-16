@@ -73,7 +73,7 @@
                 </div>
             </div>
         </div>
-<
+
     </header>
     <!-- Header Area End -->
 
@@ -81,53 +81,3 @@
 
 
 <!---login page model----->
-
-    <div class="modal fade" id="myModal1" style="width:700px; height: 890px;">
-        <div class="modal-dialog">
-            <div class="modal-content">
-      
-        <!-- Modal Header -->
-              <div class="modal-header">
-                  <h4 class="modal-title"></h4>
-                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-              
-              <div class="modal-body">
-                        <?php $this->load->view('preeti/login_page');?>
-               </div>
-        
-              <!-- Modal footer -->
-              
-            </div>
-        </div>
-      </div>    
-  </div>
-</div>
-</div>  
-
-
-
-<!----sign page---->
-
-    <div class="modal fade" id="myModal2" style="width:700px; height: 890px;">
-        <div class="modal-dialog">
-            <div class="modal-content">
-      
-        <!-- Modal Header -->
-              <div class="modal-header">
-                  <h4 class="modal-title"></h4>
-                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-              
-              <div class="modal-body">
-                        <?php $this->load->view('preeti/sign_up_page');?>
-               </div>
-        
-              <!-- Modal footer -->
-            </div>
-        </div>
-      </div>    
-        <?php //$this->load->view('ravi/view_class');?>     
-  </div>
-</div>
-</div> 
