@@ -14,6 +14,15 @@
     <link rel="stylesheet" id="main-stylesheet" data-version="1.1.0" href="<?php echo base_url('assets/assets/styles/shards-dashboards.1.1.0.min.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/assets/styles/extras.1.1.0.min.css'); ?>">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <link rel="stylesheet" href="<?php echo base_url('assets/assetsjob/css/animate.css');?>">
+    
+    
+
+    <link rel="stylesheet" href="<?php echo base_url('assets/assetsjob/css/jquery.timepicker.css');?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/assetsjob/css/flaticon.css');?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/assetsjob/css/icomoon.css');?>">
+    
+
   </head>
   <body class="h-100">
     
