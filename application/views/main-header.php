@@ -59,13 +59,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 </ul>
                             </li>
                             <li><a href="<?php echo site_url('main/Contact_us');?>">contact</a></li>
-                            <li><a href="#">pages</a>
+                            <li><a href="#">Features</a>
                                 <ul class="sub-menu">
-                                    <li><a href="job-search.html">Job Search</a></li>
-                                    <li><a href="job-single.html">Job Single</a></li>
-                                    <li><a href="pricing-plan.html">Pricing Plan</a></li>
-                                    <li><a href="elements.html">Elements</a></li>
-                                </ul>
+                                    <li><a href="<?php echo site_url('main/job_search');?> ">Job Search</a></li>
+                                    <li><a href="<?php echo site_url('main/job_single');?>">Job Single</a></li>
+                                    <li><a href="<?php echo site_url('main/pricing_plan');?>">Pricing Plan</a></li>
+                                 </ul>
                             </li>
                             <li class="menu-btn">
                                    <a href="#" data-toggle="modal" data-target="#myModal1" class="template-btn">log in</a>

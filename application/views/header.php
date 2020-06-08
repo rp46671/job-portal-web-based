@@ -55,29 +55,76 @@
                                 </ul>
                             </li>
                             <li><a href="<?php echo site_url('main/Contact_us');?>">contact</a></li>
-                            <li><a href="#">pages</a>
+                            <li><a href="#">Features</a>
                                 <ul class="sub-menu">
-                                    <li><a href="job-search.html">Job Search</a></li>
-                                    <li><a href="job-single.html">Job Single</a></li>
-                                    <li><a href="pricing-plan.html">Pricing Plan</a></li>
-                                    <li><a href="elements.html">Elements</a></li>
-                                </ul>
+                                    <li><a href="<?php echo site_url('main/job_search');?> ">Job Search</a></li>
+                                    <li><a href="<?php echo site_url('main/job_single');?>">Job Single</a></li>
+                                    <li><a href="<?php echo site_url('main/pricing_plan');?>">Pricing Plan</a></li>
+                                  </ul>
                             </li>
-                            <li class="menu-btn"  >
-                                
-                                <a href="#" data-toggle="modal" data-target="#myModal1" class="template-btn">log in</a>
+                            <li class="menu-btn">
+                                   <a href="#" data-toggle="modal" data-target="#myModal1" class="template-btn">log in</a>
                                 <a href="#" data-toggle="modal" data-target="#myModal2" class="template-btn">sign up</a>
                             </li>
-                        </ul>
+                         </ul>
                     </div>
                 </div>
             </div>
         </div>
 
-    </header>
+   
     <!-- Header Area End -->
 
 
 
 
 <!---login page model----->
+  <div class="modal fade" id="myModal1" style="float:left">
+        <div class="modal-dialog">
+            <div class="modal-content">
+      
+        <!-- Modal Header -->
+              <div class="modal-header">
+                  <h4 class="modal-title"></h4>
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              
+              <div class="modal-body">
+                        <?php $this->load->view('preeti/login_page');?>
+               </div>
+        
+              <!-- Modal footer -->
+              
+            </div>
+        </div>
+      </div>    
+  </div>
+</div>
+</div>  
+
+
+
+<!----sign page---->
+
+    <div class="modal fade" id="myModal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+      
+        <!-- Modal Header -->
+              <div class="modal-header">
+                  <h4 class="modal-title"></h4>
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              
+              <div class="modal-body">
+                        <?php $this->load->view('preeti/sign_up_page');?>
+               </div>
+        
+              <!-- Modal footer -->
+            </div>
+        </div>
+      </div>    
+        <?php //$this->load->view('ravi/view_class');?>     
+  </div>
+</div>
+</div> 

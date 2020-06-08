@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/job-portal-web-based';
+$config['base_url'] = 'http://localhost:8080/job-portal-web-based';
 
 /*
 |--------------------------------------------------------------------------

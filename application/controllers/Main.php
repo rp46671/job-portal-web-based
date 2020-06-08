@@ -21,7 +21,25 @@ public function Contact_us()
 		$this->load->view('Contact');
 		$this->load->view('footer');
 	}
-public function about()
+public function pricing_plan()
+	{
+		$this->load->view('header');
+		$this->load->view('price');
+		$this->load->view('footer');
+	}
+	public function job_search()
+	{
+		$this->load->view('header');
+		$this->load->view('job-search');
+		$this->load->view('footer');
+	}
+	public function job_single()
+	{
+		$this->load->view('header');
+		$this->load->view('jobsingle');
+		$this->load->view('footer');
+	}
+	public function about()
 	{
 		$this->load->view('header');
 		$this->load->view('about');
