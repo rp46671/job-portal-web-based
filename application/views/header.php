@@ -35,7 +35,7 @@
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="logo-area">
-                          <a href="<?php echo site_url('main/index');?>"><img src="<?php echo base_url('assets/images/1.png'); ?>" alt="logo"></a>
+                          <!--a href="<?php //echo site_url('main/index');?>"><img src="<?php //echo base_url('assets/images/1.png'); ?>" alt="logo"></a-->
                     </div>
                     </div>
                     <div class="col-lg-10">
