@@ -8,7 +8,8 @@
 
 
                             <img id="dashboard-logo" class="d-inline-block align-top mr-1"
-                                src="<?php echo base_url('assets/images/goo.png');?>" alt="Shards Dashboard">
+                                src="<?php echo base_url('assets/images/logo2.png');?> " alt="logo" 
+                                style="width:90%; height: auto;">
                         </div>
                     </a>
                     <a class="toggle-sidebar d-sm-inline d-md-none d-lg-none">
