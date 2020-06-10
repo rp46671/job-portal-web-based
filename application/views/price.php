@@ -20,53 +20,36 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="single-table text-center mb-4 mb-md-0">
                         <div class="table-top">
-                            <h3>basic</h3>
+                            <h2>Basic</h2>
                             <i class="fa fa-home"></i>
                         </div>
                         <ul class="my-5">
-                            <li class="mb-2">Email Marketing</li>
-                            <li class="mb-2">Email Builder</li>
-                            <li class="mb-2">Client Testing</li>
-                            <li class="mb-2">Multiple Email Support</li>
-                            <li class="mb-2">Email Read Recepient</li>
-                            <li>User Free</li>
+                            <li class="mb-2">Professional gallery</li>
+                            <li class="mb-2">Targeted search</li>
+                            <li class="mb-2">Recommandations</li>
+                            <li class="mb-2">Chatbox and Group suggestion</li>
+                            <li class="mb-2">Email message</li>
+                            <li>Review analytics</li>
                         </ul>
                         <a href="#" class="template-btn">Buy now</a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="single-table text-center mb-4 mb-md-0">
-                        <div class="table-top">
-                            <h3>standard</h3>
-                            <i class="fa fa-home"></i>
-                        </div>
-                        <ul class="my-5">
-                            <li class="mb-2">Email Marketing</li>
-                            <li class="mb-2">Email Builder</li>
-                            <li class="mb-2">Client Testing</li>
-                            <li class="mb-2">Multiple Email Support</li>
-                            <li class="mb-2">Email Read Recepient</li>
-                            <li>User Free</li>
-                        </ul>
-                        <a href="#" class="template-btn">Buy now</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
+                 <div class="col-md-6">
                     <div class="single-table text-center">
                         <div class="table-top">
-                            <h3>premium</h3>
+                            <h2>Premium</<h2><br>
                             <i class="fa fa-building-o"></i>
                         </div>
                         <ul class="my-5">
-                            <li class="mb-2">Email Marketing</li>
-                            <li class="mb-2">Email Builder</li>
-                            <li class="mb-2">Client Testing</li>
-                            <li class="mb-2">Multiple Email Support</li>
-                            <li class="mb-2">Email Read Recepient</li>
-                            <li>User Free</li>
+                            <li class="mb-2">Leader builder</li>
+                            <li class="mb-2">Sales alert</li>
+                            <li class="mb-2">Reference search</li>
+                            <li class="mb-2">Aggregation</li>
+                            <li class="mb-2">Reminders</li>
+                            <li class="mb-2">Consistency</li>
                         </ul>
                         <a href="#" class="template-btn">Buy now</a>
                     </div>
