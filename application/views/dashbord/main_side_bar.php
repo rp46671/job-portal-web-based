@@ -8,7 +8,8 @@
 
 
                             <img id="dashboard-logo" class="d-inline-block align-top mr-1"
-                                src="<?php echo base_url('assets/images/goo.png');?>" alt="Shards Dashboard">
+                                src="<?php echo base_url('assets/images/logo2.png');?> " alt="logo" 
+                                style="width:90%; height: auto;">
                         </div>
                     </a>
                     <a class="toggle-sidebar d-sm-inline d-md-none d-lg-none">
@@ -41,11 +42,29 @@
                             <span><strong>Job Search</strong></span>
                         </a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link " href="<?php echo site_url('dashboard/Upload_Resume');?>">
+
+                        <a class="nav-link" data-toggle="collapse" href="#togglePages6">
+                            <i class="material-icons">view_module</i>
+                            <span><strong>Resume</strong></span>
+                        </a>
+                            <ul type="none" style="padding-left:0em;"id="togglePages6" class="collapse nav-item ">
+                            <li><a  class="nav-link" href="<?php echo site_url('dashboard/Upload_Resume'); ?>">  <i class="material-icons">view_module</i>
+                          
+                                             <span><strong> Create Resume</strong></span>
+                                    </a></li>
+                            <li><a class="nav-link " href="<?php echo site_url('dashboard/Upload_Resume'); ?>">  <i class="material-icons">view_module</i>
+                          
+                                             <span><strong>Upload Resume</strong></span>
+                                    </a></li>
+            
+                            </ul>
+                                
+                        <!--a class="nav-link " href="<?php echo site_url('dashboard/Upload_Resume');?>">
                             <i class="material-icons">view_module</i>
                             <span><strong>Upload Resume</strong></span>
-                        </a>
+                        </a-->
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="<?php echo site_url('dashboard/Given_Test');?>">
