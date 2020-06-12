@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="row">
                     <div class="col-md-6 offset-md-3">
                         <h2>Contact Us</h2>
-                        <p>There spirit beginning bearing the open at own every give appear in third you sawe two boys</p>
+                        <p>Connect for talent specialists and job opportunities</p>
                     </div>
                 </div>
             </div>
@@ -77,8 +77,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         <div class="right">
                             <textarea name="message" cols="20" rows="7"  placeholder="Enter Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" required></textarea>
-                        </div>
+                    
+                        By submitting this form, you agree that we may use the data you provide to contact you with information related to your request/submission.
                         <button type="submit" class="template-btn">subscribe now</button>
+                    </div>
                     </form>
                 </div>
             </div>

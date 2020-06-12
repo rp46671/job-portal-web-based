@@ -1,3 +1,7 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>  
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +13,8 @@
     <!-- Page Title -->
     <title>Grabrozgar</title>
 
-<link rel="shortcut icon" href="<?php echo base_url('assets/images/logo/favicon.png'); ?>" type="image/x-icon">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="<?php echo base_url('assets/images/logo/favicon.png'); ?>" type="image/x-icon">
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/animate-3.7.0.css'); ?>">
@@ -19,7 +24,6 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/owl-carousel.min.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/nice-select.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>">
-    
 </head>
 <body>
     <!-- Preloader Starts -->
@@ -29,57 +33,47 @@
     <!-- Preloader End -->
 
     <!-- Header Area Starts -->
-    <header class="header-area single-page">
-        <div class="header-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2">
-                        <div class="logo-area">
-                          <a href="<? echo site_url('main/index');?>"><img src="<?php echo base_url('assets/images/logo3.png'); ?>" alt="logo"></a>
+  <header class="header-area main-header ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="logo-area">
+                        <a href="<?php echo site_url('main/index');?>"><img src="<?php echo base_url('assets/images/logo2.png'); ?>" alt="logo"></a>
                     </div>
-                    </div>
-                    <div class="col-lg-10">
-                        <div class="custom-navbar">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>  
-                        <div class="main-menu main-menu-light">
-                             <ul>
+                </div>
+                <div class="col-lg-10">
+                    <div class="custom-navbar  navbar-dark bg-primary">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>  
+                    <div class="main-menu  ">
+                        <ul>
                             <li class="active"><a href="<?php echo site_url('main/index');?>">home</a></li>
                             <li><a href="<?php echo site_url('main/about');?>"> about us</a></li>
                             <li><a href="<?php echo site_url('main/category');?>"> category</a></li>
-                            <li><a href="#">blog</a>
-                                <ul class="sub-menu">
-                                    <li><a href="<?php echo site_url('main/bloghome');?>">Blog Home</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="<?php echo site_url('main/bloghome');?>">blog</a>
+                                </li>
                             <li><a href="<?php echo site_url('main/Contact_us');?>">contact</a></li>
                             <li><a href="#">Features</a>
                                 <ul class="sub-menu">
                                     <li><a href="<?php echo site_url('main/job_search');?> ">Job Search</a></li>
                                     <li><a href="<?php echo site_url('main/job_single');?>">Job Single</a></li>
                                     <li><a href="<?php echo site_url('main/pricing_plan');?>">Pricing Plan</a></li>
-                                  </ul>
+                                 </ul>
                             </li>
                             <li class="menu-btn">
                                    <a href="#" data-toggle="modal" data-target="#myModal1" class="template-btn">log in</a>
                                 <a href="#" data-toggle="modal" data-target="#myModal2" class="template-btn">sign up</a>
                             </li>
-                         </ul>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
 
-   
     <!-- Header Area End -->
 
-
-
-
-<!---login page model----->
   <div class="modal fade" id="myModal1" style="float:left">
         <div class="modal-dialog">
             <div class="modal-content">

@@ -1,14 +1,19 @@
- <div class="page-title text-center">
+</header>
+   
+
+<div class="page-title text-center header-top single-page" 
+style="background-repeat: no-repeat;
+background-color:orange">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 offset-md-3">
-                        <h2>Pricing Plan</h2>
-                        <p>There spirit beginning bearing the open at own every give appear in third you sawe two boys</p>
+                        <h2 style="color: white">Pricing Plan</h2>
+                        <p style="color: white">There spirit beginning bearing the open at own every give appear in third you sawe two boys</p>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    
     <section class="pricing-table section-padding">
         <div class="container">
             <div class="row">

@@ -52,12 +52,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <li class="active"><a href="<?php echo site_url('main/index');?>">home</a></li>
                             <li><a href="<?php echo site_url('main/about');?>"> about us</a></li>
                             <li><a href="<?php echo site_url('main/category');?>"> category</a></li>
-                            <li><a href="#">blog</a>
-                                <ul class="sub-menu">
-                                    <li><a href="<?php echo site_url('main/bloghome');?>">Blog Home</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="<?php echo site_url('main/bloghome');?>">blog</a>
+                                 </li>
                             <li><a href="<?php echo site_url('main/Contact_us');?>">contact</a></li>
                             <li><a href="#">Features</a>
                                 <ul class="sub-menu">

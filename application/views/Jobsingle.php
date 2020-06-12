@@ -1,4 +1,9 @@
-<div class="page-title text-center">
+</header>
+   
+
+<div class="page-title text-center header-top single-page" 
+style="background-repeat: no-repeat;
+background-color:beige">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 offset-md-3">
@@ -8,7 +13,7 @@
                 </div>
             </div>
         </div>
-    </header>
+    
     <!-- Header Area End -->
 
     <!-- Job Single Content Starts -->
